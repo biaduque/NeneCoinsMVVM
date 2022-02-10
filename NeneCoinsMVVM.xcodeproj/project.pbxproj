@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139DB3C227B57C8200AE1112 /* NeneCoinsMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DB3C127B57C8200AE1112 /* NeneCoinsMVVMApp.swift */; };
+		139DB3C427B57C8200AE1112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DB3C327B57C8200AE1112 /* ContentView.swift */; };
+		139DB3C627B57C8400AE1112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139DB3C527B57C8400AE1112 /* Assets.xcassets */; };
+		139DB3C927B57C8400AE1112 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139DB3C827B57C8400AE1112 /* Preview Assets.xcassets */; };
+		139DB3D127B57D7600AE1112 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DB3D027B57D7600AE1112 /* Coin.swift */; };
+		139DB3D327B57DF500AE1112 /* CoinRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DB3D227B57DF500AE1112 /* CoinRepository.swift */; };
+		139DB3D627B57FFA00AE1112 /* ConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DB3D527B57FFA00AE1112 /* ConversionView.swift */; };
+		139DB3D827B5817E00AE1112 /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DB3D727B5817E00AE1112 /* CoinCell.swift */; };
+		139DB3DA27B5872300AE1112 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DB3D927B5872300AE1112 /* SelectionView.swift */; };
+		139DB3DD27B58E6000AE1112 /* SelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DB3DC27B58E6000AE1112 /* SelectionViewModel.swift */; };
+		139DB3DF27B59D6E00AE1112 /* ConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139DB3DE27B59D6E00AE1112 /* ConversionViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		139DB3BE27B57C8200AE1112 /* NeneCoinsMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeneCoinsMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		139DB3C127B57C8200AE1112 /* NeneCoinsMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeneCoinsMVVMApp.swift; sourceTree = "<group>"; };
+		139DB3C327B57C8200AE1112 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		139DB3C527B57C8400AE1112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		139DB3C827B57C8400AE1112 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		139DB3D027B57D7600AE1112 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		139DB3D227B57DF500AE1112 /* CoinRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRepository.swift; sourceTree = "<group>"; };
+		139DB3D527B57FFA00AE1112 /* ConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionView.swift; sourceTree = "<group>"; };
+		139DB3D727B5817E00AE1112 /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
+		139DB3D927B5872300AE1112 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		139DB3DC27B58E6000AE1112 /* SelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewModel.swift; sourceTree = "<group>"; };
+		139DB3DE27B59D6E00AE1112 /* ConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139DB3BB27B57C8200AE1112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139DB3B527B57C8200AE1112 = {
+			isa = PBXGroup;
+			children = (
+				139DB3C027B57C8200AE1112 /* NeneCoinsMVVM */,
+				139DB3BF27B57C8200AE1112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		139DB3BF27B57C8200AE1112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139DB3BE27B57C8200AE1112 /* NeneCoinsMVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139DB3C027B57C8200AE1112 /* NeneCoinsMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				139DB3DB27B58E5100AE1112 /* ViewModels */,
+				139DB3D427B57FB300AE1112 /* Views */,
+				139DB3CF27B57D6600AE1112 /* Models */,
+				139DB3C127B57C8200AE1112 /* NeneCoinsMVVMApp.swift */,
+				139DB3C327B57C8200AE1112 /* ContentView.swift */,
+				139DB3C527B57C8400AE1112 /* Assets.xcassets */,
+				139DB3C727B57C8400AE1112 /* Preview Content */,
+			);
+			path = NeneCoinsMVVM;
+			sourceTree = "<group>";
+		};
+		139DB3C727B57C8400AE1112 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				139DB3C827B57C8400AE1112 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		139DB3CF27B57D6600AE1112 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				139DB3D027B57D7600AE1112 /* Coin.swift */,
+				139DB3D227B57DF500AE1112 /* CoinRepository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		139DB3D427B57FB300AE1112 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				139DB3D527B57FFA00AE1112 /* ConversionView.swift */,
+				139DB3D727B5817E00AE1112 /* CoinCell.swift */,
+				139DB3D927B5872300AE1112 /* SelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		139DB3DB27B58E5100AE1112 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				139DB3DC27B58E6000AE1112 /* SelectionViewModel.swift */,
+				139DB3DE27B59D6E00AE1112 /* ConversionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		139DB3BD27B57C8200AE1112 /* NeneCoinsMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139DB3CC27B57C8400AE1112 /* Build configuration list for PBXNativeTarget "NeneCoinsMVVM" */;
+			buildPhases = (
+				139DB3BA27B57C8200AE1112 /* Sources */,
+				139DB3BB27B57C8200AE1112 /* Frameworks */,
+				139DB3BC27B57C8200AE1112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeneCoinsMVVM;
+			productName = NeneCoinsMVVM;
+			productReference = 139DB3BE27B57C8200AE1112 /* NeneCoinsMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139DB3B627B57C8200AE1112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					139DB3BD27B57C8200AE1112 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 139DB3B927B57C8200AE1112 /* Build configuration list for PBXProject "NeneCoinsMVVM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 139DB3B527B57C8200AE1112;
+			productRefGroup = 139DB3BF27B57C8200AE1112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				139DB3BD27B57C8200AE1112 /* NeneCoinsMVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		139DB3BC27B57C8200AE1112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139DB3C927B57C8400AE1112 /* Preview Assets.xcassets in Resources */,
+				139DB3C627B57C8400AE1112 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139DB3BA27B57C8200AE1112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139DB3D327B57DF500AE1112 /* CoinRepository.swift in Sources */,
+				139DB3D627B57FFA00AE1112 /* ConversionView.swift in Sources */,
+				139DB3D127B57D7600AE1112 /* Coin.swift in Sources */,
+				139DB3C427B57C8200AE1112 /* ContentView.swift in Sources */,
+				139DB3D827B5817E00AE1112 /* CoinCell.swift in Sources */,
+				139DB3DD27B58E6000AE1112 /* SelectionViewModel.swift in Sources */,
+				139DB3DA27B5872300AE1112 /* SelectionView.swift in Sources */,
+				139DB3C227B57C8200AE1112 /* NeneCoinsMVVMApp.swift in Sources */,
+				139DB3DF27B59D6E00AE1112 /* ConversionViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		139DB3CA27B57C8400AE1112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		139DB3CB27B57C8400AE1112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		139DB3CD27B57C8400AE1112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeneCoinsMVVM/Preview Content\"";
+				DEVELOPMENT_TEAM = V8V28A4DX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biaduque.NeneCoinsMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		139DB3CE27B57C8400AE1112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeneCoinsMVVM/Preview Content\"";
+				DEVELOPMENT_TEAM = V8V28A4DX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biaduque.NeneCoinsMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139DB3B927B57C8200AE1112 /* Build configuration list for PBXProject "NeneCoinsMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139DB3CA27B57C8400AE1112 /* Debug */,
+				139DB3CB27B57C8400AE1112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139DB3CC27B57C8400AE1112 /* Build configuration list for PBXNativeTarget "NeneCoinsMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139DB3CD27B57C8400AE1112 /* Debug */,
+				139DB3CE27B57C8400AE1112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 139DB3B627B57C8200AE1112 /* Project object */;
+}

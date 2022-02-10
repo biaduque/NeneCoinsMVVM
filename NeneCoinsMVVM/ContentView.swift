@@ -13,6 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
+            /// view inicial que comeca com a base que esta no modelo
             ConversionView(conversionViewModel: ConversionViewModel(fromCoin: coinsBase.0,toCoin: coinsBase.1))
         }
     }
